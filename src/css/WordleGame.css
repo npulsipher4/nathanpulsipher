@@ -1,3 +1,4 @@
+
 /* Main container */
 .game-container {
   display: flex;
@@ -20,6 +21,7 @@
 .game-message {
   margin-bottom: 1rem;
   text-align: center;
+  min-height: 1.5rem;
 }
 
 /* Game grid */
@@ -130,6 +132,11 @@
   color: white;
 }
 
+.keyboard-key-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 /* Victory message */
 .victory-message {
   margin-top: 1rem;
@@ -146,6 +153,13 @@
 
 .victory-message p:first-child {
   font-weight: bold;
+}
+
+/* Loading indicator */
+.loading-indicator {
+  margin: 1rem 0;
+  text-align: center;
+  color: #666;
 }
 
 /* Mobile responsiveness */
